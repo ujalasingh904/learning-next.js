@@ -9,13 +9,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>
-        {children}
-        <div className="bg-green-600 p-4 text-center text-2xl">
-          <h1>blogid layout</h1>
-        </div>
-      </body>
-    </html>
+    <main>
+      {children}
+      <div>"hello"</div>
+    </main>
   );
 }
